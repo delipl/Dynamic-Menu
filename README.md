@@ -5,8 +5,7 @@ The project template is from [Cpp Project](https://github.com/bsamseth/cpp-proje
 
 ## Project structure
 Menu
- ┣ .vscode
- ┃ ┗ settings.json
+```
  ┣ app
  ┃ ┣ advancedExample.cpp
  ┃ ┗ beginerExample.cpp
@@ -36,7 +35,7 @@ Menu
  ┣ .travis.yml
  ┣ CMakeLists.txt
  ┗ Doxyfile.in
-
+```
 
 ## Build
 
