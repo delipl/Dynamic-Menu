@@ -6,6 +6,7 @@ The project template is from [Cpp Project](https://github.com/bsamseth/cpp-proje
 ## Project structure
 Menu
 ```
+ Dynamic-Menu
  ┣ app
  ┃ ┣ advancedExample.cpp
  ┃ ┗ beginerExample.cpp
