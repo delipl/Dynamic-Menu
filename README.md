@@ -5,7 +5,6 @@ The project template is from [Cpp Project](https://github.com/bsamseth/cpp-proje
 
 ## Project structure
 .
-|
 +-- app
 |   +-- beginerExample.cpp    # Example of using
 |   +-- advancedExample.cpp   
