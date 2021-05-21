@@ -4,19 +4,38 @@ Dynamic menu used in almost all my projects.
 The project template is from [Cpp Project](https://github.com/bsamseth/cpp-project) and the idea for this menu is from @DarKreter.
 
 ## Project structure
-.
-+-- app
-|   +-- beginerExample.cpp    # Example of using
-|   +-- advancedExample.cpp   
-+-- build         # Built binaries
-+-- cmake         # Cmake applications config like doctest, doxygen
-+-- inc           # Header files
-|   +-- Menu.hpp
-+-- lib           # Libraries for project
-|   +-- doctest
-+-- src           # Source files
-|   +-- Menu.cpp
-+-- tests         # Doctests
+Menu
+ ┣ .vscode
+ ┃ ┗ settings.json
+ ┣ app
+ ┃ ┣ advancedExample.cpp
+ ┃ ┗ beginerExample.cpp
+ ┣ build
+ ┣ cmake
+ ┃ ┣ CodeCoverage.cmake
+ ┃ ┣ Colors.cmake
+ ┃ ┣ ConfigSafeGuards.cmake
+ ┃ ┣ Doctest.cmake
+ ┃ ┣ Documentation.cmake
+ ┃ ┣ LTO.cmake
+ ┃ ┣ Misc.cmake
+ ┃ ┗ Warnings.cmake
+ ┣ inc
+ ┃ ┣ Menu.hpp
+ ┃ ┣ config.hpp
+ ┃ ┗ config.hpp.in
+ ┣ lib
+ ┃ ┣ doctest
+ ┣ src
+ ┃ ┗ Menu.cpp
+ ┣ tests
+ ┃ ┣ CMakeLists.txt
+ ┃ ┣ main.cpp
+ ┃ ┗ menu.ut.cpp
+ ┣ .gitmodules
+ ┣ .travis.yml
+ ┣ CMakeLists.txt
+ ┗ Doxyfile.in
 
 
 ## Build
